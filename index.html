@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Axios全方位解析</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="text-center">
+        <h1 class="display-4 text-center mb-3">Axios全方位解析</h1>
+        <button class="btn btn-primary my-3" id="get">GET</button>
+        <button class="btn btn-info" id="post">POST</button>
+        <button class="btn btn-warning" id="update">PUT/PATCH</button>
+        <button class="btn btn-danger" id="delete">DELETE</button>
+        <button class="btn btn-secondary" id="sim">批量请求</button>
+        <button class="btn btn-secondary" id="headers">
+          请求头
+        </button>
+        <button class="btn btn-secondary" id="transform">
+          Transform
+        </button>
+        <button class="btn btn-secondary" id="error">
+          Error 处理
+        </button>
+        <button class="btn btn-secondary" id="cancel">
+          请求取消
+        </button>
+      </div>
+      <hr />
+      <div id="res"></div>
+    </div>
+
+    <!-- 引入axios cdn -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- <script src="start.js"></script> -->
+    <script src="main.js"></script>
+  </body>
+</html>
